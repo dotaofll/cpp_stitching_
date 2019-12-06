@@ -9,7 +9,7 @@ project(cpp_stitching_)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp_stitching_ main.cpp CameraStreamer.hpp CameraStreamer.cpp)
+add_executable(cpp_stitching_ main.cpp)
 
 find_package(OpenCV REQUIRED)
 find_package(Threads)
