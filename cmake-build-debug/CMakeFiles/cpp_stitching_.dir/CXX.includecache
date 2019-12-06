@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eksan/Documents/stitching/cpp_stitching /main.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+math.h
+-
+
